@@ -17,7 +17,7 @@ function App() {
   return (
     <>
       <div  className='font-black text-lg font-mono flex w-screen h-screen items-center justify-center '>
-        <div style={{ backgroundColor: (dark ? 'rgb(245, 245, 245)' : 'rgb(29, 29, 29)'), color: (dark ? '#000' : '#fff') }} className='h-5/6 w-4/5 rounded shadow-black shadow-md' >
+        <div style={{ backgroundColor: (dark ? 'rgb(245, 245, 245)' : 'rgb(29, 29, 29)'), color: (dark ? '#000' : '#fff') }} className='h-full max-h-fit w-full rounded shadow-black shadow-md lg:h-5/6 lg:w-5/6 lg:max-h-fit' >
           <div className='flex flex-col h-1/6' >
             <div style={{backgroundColor: (dark ? 'rgb(229, 229, 229)' : 'rgb(38, 38, 38)')}} className='w-full h-fit p-3 flex justify-center items-center mt-5'>
               <p className='capitalize'>Lista de tarefas</p>
@@ -44,7 +44,7 @@ function App() {
             </div>
           </div>
           <div className='h-5/6 w-full p-8' >
-            <TaskContainer dark={dark} tasks={tasks} setTasks={setTasks} />
+            <TaskContainer tasks={tasks} setTasks={setTasks} dark={dark} />
           </div>
         </div>
       </div>
