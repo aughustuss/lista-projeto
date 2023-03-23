@@ -22,7 +22,7 @@ function App() {
             <div style={{backgroundColor: (dark ? 'rgb(229, 229, 229)' : 'rgb(38, 38, 38)')}} className='w-full h-fit p-3 flex justify-center items-center mt-5'>
               <p className='capitalize'>Lista de tarefas</p>
             </div>
-            <div className='h-fit pt-5 flex justify-center items-center bg-red-600'>
+            <div className='h-fit  pt-4 flex justify-center items-center bg-red-600'>
               <Switch
                 checked={dark}
                 onChange={() => {
