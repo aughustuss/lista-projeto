@@ -33,7 +33,7 @@ const TaskContainer = ({ tasks, setTasks, dark }) => {
 
     return (
         <>
-            <div style={{backgroundColor: (!dark ? 'rgb(38,38,38)' : 'rgb(229, 229, 229)')}} className='h-full w-full rounded overflow-y-scroll '>
+            <div style={{backgroundColor: (!dark ? 'rgb(38,38,38)' : 'rgb(229, 229, 229)')}} className='h-full w-full rounded overflow-y-auto '>
                 <form className='flex flex-col w-full h-fit p-2 justify-between items-center lg:flex-row' onSubmit={handleSubmit}>
                     <input style={{backgroundColor: (dark ? 'rgb(245, 245, 245)' : 'rgb(29, 29, 29)')}} name='title' onChange={handleChange} value={todo.title} placeholder='Título da Tarefa' className='text-neutral-600 p-2 bg-transparent w-full focus:outline-none rounded bg-slate-100 mr-1 mb-1 lg:w-6/12' />
                     <input style={{backgroundColor: (dark ? 'rgb(245, 245, 245)' : 'rgb(29, 29, 29)')}} name='description' onChange={handleChange} value={todo.description} placeholder='Descrição Rápida' className='text-neutral-600 p-2 bg-transparent w-full focus:outline-none rounded bg-slate-100 mr-1 mb-1 lg:w-6/12' />
