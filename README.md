@@ -1,4 +1,38 @@
-# Projeto feito com ReactJS e TailwindCSS.
 
-Este pequeno projeto se dá como uma aplicação Web que permite ao usuário criar e excluir tarefas. As tarefas são armazenadas no LocalStorage do usuário e retiradas assim que elas são deletadas. Este site aborda conceitos de Responsividade (UX) e manipulação de dados e arquivos no LocalStorage, sem a necessidade de uma banco de dados.
- 
+# TodoAD List
+
+Uma aplicação de uma lista de tarefas que permite ao usuário adicionar, excluir e marcar como feitas as atividades listadas por ele. Conta com mudança de tema.
+
+
+## Stack utilizada
+
+**Front-end:** ReactJS, TailwindCSS e ViteJS
+
+
+
+## Funcionalidades
+
+- Adição, remoção, atualização e visualização das tarefas
+- Troca de tema
+
+
+## Instalação
+
+Instale projeto-lista com npm
+
+```bash
+  cd proj-lista
+  npm i
+```
+    
+## Link para o projeto 
+
+https://lista-projeto-aughustuss.vercel.app/
+
+## Dependências utilizadas
+
+- react-icons
+- react-switch
+- postcss
+- tailwindcss
+
