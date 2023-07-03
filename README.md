@@ -18,11 +18,18 @@ Uma aplicação de uma lista de tarefas que permite ao usuário adicionar, exclu
 
 ## Instalação
 
-Instale projeto-lista com npm
+Instale projeto-lista
 
 ```bash
-  cd proj-lista
   npm i
+```
+
+```bash
+  pnpm i
+```
+
+```bash
+  yarn add
 ```
     
 ## Link para o projeto 
