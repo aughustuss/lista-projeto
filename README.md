@@ -31,6 +31,12 @@ Instale projeto-lista
 ```bash
   yarn add
 ```
+
+Rode projeto-lista
+
+```bash
+  npm run dev
+```
     
 ## Link para o projeto 
 
